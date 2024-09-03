@@ -11,6 +11,8 @@ The project uses 5 pins - MOSI, SCK and CS for SPI, DC for data/command marking,
 
 Depending on the device, you may also need to connect display's LED pin to 3.3V.
 
-The library is in files lcd.h and lcd.c, the program also uses image.c to store image data.  
+The library is in files lcd.h and lcd.c, the program also uses image.c to store image data.
 
 ![photo](https://github.com/user-attachments/assets/a7afd1a0-508f-4ccd-8ea4-d29e4b469c0e)
+
+Note: make sure to enable DMA for SPI, choose SPI as transmit-only with a baudrate which your display can handle (eg. 10MHz), set word length to 8 bits and disable NSSP Mode.
