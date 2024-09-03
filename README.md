@@ -10,5 +10,7 @@ There are two versions, v1 takes less RAM but it's slower, v2 uses buffering to 
 
 The project uses 5 pins - MOSI, SCK and CS for SPI, DC for data/command marking, and RST for resetting.  
 
-Depending on the device, you may also need to connect display's LED pin to 3.3V.  
+Depending on the device, you may also need to connect display's LED pin to 3.3V.
+
+The library is in files lcd.h and lcd.c, the program also uses image.c to store image data.  
 
