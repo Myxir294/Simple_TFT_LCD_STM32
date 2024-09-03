@@ -1,7 +1,7 @@
 # Simple_TFT_LCD_STM32
 
-The programs allow to operate ST7735S LCD TFT Display via Nucleo L476RGT6 board, using SPI and DMA.  
-They can be easily migrated to another STM32-type board and used in simple projects.  
+The programs allow to operate ST7735S LCD TFT Display via Nucleo L476RGT6 board, using SPI and DMA.   
+All the code was made using STM32 Cube IDE, so it can be easily migrated to another STM32-type board and used in simple projects.  
 
 The code is a part of my STM32 training with an online course from polish website Forbot.pl, but I find it nice so I decided to share it. It's mainly focused on being easy to undertand and as simple as possible.  
 
