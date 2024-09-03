@@ -13,3 +13,4 @@ Depending on the device, you may also need to connect display's LED pin to 3.3V.
 
 The library is in files lcd.h and lcd.c, the program also uses image.c to store image data.  
 
+![photo](https://github.com/user-attachments/assets/a7afd1a0-508f-4ccd-8ea4-d29e4b469c0e)
