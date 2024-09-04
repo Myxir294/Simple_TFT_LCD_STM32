@@ -36,7 +36,7 @@
 void lcd_fill_box(int x, int y, int width, int height, uint16_t color);
 
 //Always run the function below before starting work with the LCD
-void lcd_init(void);
+void lcd_init();
 
 //Draws a pixel at (x,y), of given color
 void lcd_put_pixel(int x, int y, uint16_t color);
@@ -53,10 +53,10 @@ void lcd_draw_image(int x, int y, int width, int height, const uint8_t* data);
 void lcd_clear();
 
 //Changes CS pin state after transferring data, used for SPI callback
-void lcd_transfer_done(void);
+void lcd_transfer_done();
 
 //Checks SPI state - currently unused, but may be helpful to check if you
 //can proceed with more communicates
-bool lcd_is_busy(void);
+bool lcd_is_busy();
 
 #endif /* INC_LCD_H_ */
