@@ -5,7 +5,7 @@ All the code was made using STM32 Cube IDE, so it can be easily migrated to anot
 
 The code is a part of my STM32 training with an online course from polish website Forbot.pl, but I find it nice so I decided to share it. It's mainly focused on being easy to undertand and as simple as possible.  
 
-There are two versions, v1 takes less RAM but it's slower, v2 uses buffering to draw images faster but takes up way more memory space.  
+There are two versions, v1 takes less RAM but it's slower, v2 uses buffering to draw program-made pixel images faster but takes up way more memory space.  
 
 The project uses 5 pins - MOSI, SCK and CS for SPI, DC for data/command marking, and RST for resetting.  
 
