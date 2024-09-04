@@ -96,7 +96,7 @@ static const uint16_t init_table[] = {
   //Just commands and data and so on
 };
 
-void lcd_init(void)
+void lcd_init()
 {
   int i;
 
@@ -179,14 +179,14 @@ void lcd_clear()
 }
 
 //Deselecting the device after transfer
-void lcd_transfer_done(void)
+void lcd_transfer_done()
 {
 	HAL_GPIO_WritePin(LCD_CS_GPIO_Port, LCD_CS_Pin, GPIO_PIN_SET);
 }
 
 //Checks SPI state - currently unused, but may be helpful to check if you
 //can proceed with more communicates
-bool lcd_is_busy(void)
+bool lcd_is_busy()
 {
 	if (HAL_SPI_GetState(&hspi2) == HAL_SPI_STATE_BUSY)
 	{
