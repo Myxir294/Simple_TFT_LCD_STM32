@@ -10,7 +10,7 @@
 //may need additional information about offseting data
 
 //This version of the library allows you to generate image pixel by pixel in a buffer
-//and then pixels all at once, which is faster than sending them one-by-one
+//and then send pixels all at once, which is faster than sending them one-by-one
 
 //Drawing pre-made images is not changed
 
